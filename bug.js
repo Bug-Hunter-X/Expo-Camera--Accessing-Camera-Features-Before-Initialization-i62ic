@@ -1,0 +1,1 @@
+This error occurs when using the Expo Camera API and attempting to access the camera's features before the camera is fully initialized.  This can happen if you try to access `cameraRef.current` before the `onCameraReady` callback is fired.
